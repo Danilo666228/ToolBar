@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:title="@drawable/ic_banner_foreground"
+    android:id="@+id/sync"
+    android:icon="@drawable/ic_banner_foreground"
+        android:orderInCategory="100"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:title="Сохранить"
+        android:id="@+id/save"
+        android:icon="@drawable/ic_banner_foreground"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Поиск"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_banner_foreground"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Удалить"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_banner_foreground"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
